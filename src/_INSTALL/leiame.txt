@@ -1,0 +1,7 @@
+Requerimentos
+Banco de Dados: Mysql
+Ferramenta: Google Recaptcha
+PHP: 5.5
+
+Configurações
+É preciso renomear o arquivo config_ini.php para config.php e preencher as configurações.

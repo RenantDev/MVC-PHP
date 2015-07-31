@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" http-equiv="Content-Language" content="pt_BR">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title><?= (isset($this->title)) ? $this->title : NOME_PROJETO; ?></title>
+
+        <?php echo isset($this->css) ? $this->css : ""; ?>
+        <script src='https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit'></script>
+        <script type="text/javascript">
+            var url = '<?php echo URL; ?>';
+        </script>
+    </head>
+
+    <body>
+        Header
+
